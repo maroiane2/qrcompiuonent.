@@ -1,0 +1,49 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+    Font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+}
+body
+{
+    background:hsl(212, 45%, 89%);
+}
+.all
+{
+    width: 300px;
+    height: 460px;
+    background-color: hsl(0, 0%, 100%);
+    margin: 70px auto;
+}
+.all .QR img
+{
+    width: 270px;
+    height: 270px;
+    border-radius: 10px;
+}
+.all .QR
+{
+    position: absolute;
+    width: 270px;
+    height: 270px;
+    margin: 15px;
+}
+.all .text
+{
+    padding-top: 300px;
+    text-align: center;  
+}
+.all h1
+{
+    justify-content: center;
+    align-items: center;
+    color: hsl(218, 44%, 22%);
+}
+.all p
+{
+    padding-top: 20px;
+    color: gray;
+}
